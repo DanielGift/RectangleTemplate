@@ -1,1 +1,4 @@
 # RectangleTemplate
+(a) Write a class Rectangle that represents a rectangle with integer width and height. Include a constructor that builds a rectangle with a given width and height and another constructor (with one parameter) that builds a rectangle that is actually a square of a given size. Make sure these constructors check that the width and height are positive. Add a constructor that takes no parameters and builds a square of size 1.
+(b) Add a boolean method isSquare that returns true if and only if the rectangle is a square. Add a void method quadratize that converts this rectangle into a square with approximately the same area - the closest possible for a square with an integer side.
+(c) Test all your constructors and methods in a simple console application. Define several rectangles, check which ones among them are squares, and print appropriate messages. "Quadratize" one of the rectangles, verify that it becomes a square, and print an appropriate message.
